@@ -7,7 +7,7 @@ Cet examen vise à évaluer vos compétences en MLOps en vous faisant travailler
 Vous êtes un Data Scientist dans une entreprise de streaming vidéo en ligne. On vous demande de mettre en place un système pour classer automatiquement les critiques de films en deux catégories : positives (1) et négatives (0), en utilisant les pratiques MLOps.
 
 #### Instructions
-Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre parties principales.
+Vous disposerez de 2 heures pour compléter cet examen qui se divise en cinq parties principales.
 
 #### Partie 1 : Préparation du Dataset
 1. Téléchargez le fichier `reviews_unique.csv` contenant les critiques de films et leurs labels associés.
@@ -31,7 +31,7 @@ Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre p
 #### Partie 5 : Gestion des Données avec DVC
 1. **Initialisation de DVC :**
    - Dans votre projet, initialisez DVC pour commencer à suivre les versions de vos données.
-   - Installez DVC sur votre système si ce n'est pas déjà fait, en utilisant pip ou un autre gestionnaire de paquets.
+   - Installez DVC sur votre système si ce n'est pas déjà fait, en utilisant pip ou un autre packages manager.
 
 2. **Configuration du Stockage Distant :**
    - Configurez un stockage distant avec DVC. Vous pouvez utiliser un service cloud comme Azure Storage Account, AWS S3, Google Cloud Storage...
@@ -53,7 +53,7 @@ Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre p
 - Documentation du code yaml pour construire la CI.
 
 #### Livrables
-- Votre repos git avec l'ensemble de vos fichies de code source.
+- Votre repos git avec l'ensemble de vos fichiers de code source.
 
 
 
