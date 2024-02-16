@@ -8,7 +8,7 @@
 
 3. **Expliquez l'acronyme C.A.L.M.S et son importance dans le contexte DevOps**
 
-4. **Listez cinq outils couramment utilisés dans la pratique du DevOps et décrivez brièvement leur fonction.**
+4. **Listez 6 outils couramment utilisés dans la pratique du DevOps et MLOps et décrivez brièvement leur fonction.**
 
 5. **Expliquez ce qu'est l'intégration continue et son rôle.**
 
