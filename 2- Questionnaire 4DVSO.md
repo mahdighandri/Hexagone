@@ -26,6 +26,6 @@
 
 13. **Définissez le SaaS et donnez un exemple**
 
-14* **Définissez le DVC, et donnez un exemple d'une command.**
+14. **Définissez le DVC, et donnez un exemple d'une command.**
 
-15* **C'est quoi un training job ?**
+15. **C'est quoi un training job ?**
