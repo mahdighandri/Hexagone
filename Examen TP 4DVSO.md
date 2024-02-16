@@ -9,26 +9,26 @@ Vous êtes un Data Scientist dans une entreprise de streaming vidéo en ligne. O
 #### Instructions
 Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre parties principales.
 
-#### Partie 1 : Préparation du Dataset (30 minutes)
+#### Partie 1 : Préparation du Dataset
 1. Téléchargez le fichier `reviews_unique.csv` contenant les critiques de films et leurs labels associés.
 2. Explorez rapidement le dataset pour comprendre sa structure et effectuez un prétraitement simple si nécessaire (par exemple, suppression des doublons).
 
-#### Partie 2 : Entraînement d'un Modèle de Machine Learning (30 minutes)
+#### Partie 2 : Entraînement d'un Modèle de Machine Learning
 1. Utilisez Python pour développer un script (`train_model.py`) qui entraîne un modèle de classification (par exemple, Logistic Regression) sur le dataset.
 2. Votre script doit inclure une phase de validation pour évaluer la performance du modèle (par exemple, précision, rappel).
 3. Sauvegardez le modèle entraîné pour une utilisation ultérieure.
 
-#### Partie 3 : Conteneurisation avec Docker (30 minutes)
+#### Partie 3 : Conteneurisation avec Docker
 1. Créez une API Flask simple avec un endpoint `/predict` qui prend une critique de film en entrée et retourne la prédiction du modèle (positif/négatif).
 2. Conteneurisez votre application Flask et le modèle entraîné en utilisant Docker. Fournissez le `Dockerfile` correspondant.
 
-#### Partie 4 : Automatisation CI/CD avec GitLab (30 minutes)
+#### Partie 4 : Automatisation CI/CD avec GitLab
 1. Configurez un pipeline CI/CD dans GitLab à l'aide d'un fichier `.gitlab-ci.yml`. Le pipeline doit effectuer les tâches suivantes :
    - Construction de l'image Docker de votre application Flask.
    - Exécution de tests unitaires simples pour vérifier la fonctionnalité de l'API.
    - (Optionnel) Déploiement de l'image Docker sur un registre d'images Docker.
 
-#### Partie 5 : Gestion des Données avec DVC (30 minutes)
+#### Partie 5 : Gestion des Données avec DVC
 1. **Initialisation de DVC :**
    - Dans votre projet, initialisez DVC pour commencer à suivre les versions de vos données.
    - Installez DVC sur votre système si ce n'est pas déjà fait, en utilisant pip ou un autre gestionnaire de paquets.
@@ -46,15 +46,14 @@ Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre p
    - Assurez-vous que les variables d'environnement nécessaires pour l'accès au stockage distant sont correctement configurées dans les paramètres CI/CD de GitLab.
 
 #### Critères d'Évaluation
-- Qualité et clarté du code Python pour l'entraînement du modèle.
+- Documentation, Qualité et clarté du code Python pour l'entraînement du modèle.
 - Efficacité et précision du modèle de classification.
 - Complétude et fonctionnalité du `Dockerfile`.
 - Configuration correcte et fonctionnement du pipeline CI/CD dans `.gitlab-ci.yml`.
+- Documentation du code yaml pour contruire la partie CI.
 
 #### Livrables
-- Script Python `train_model.py` pour l'entraînement et l'évaluation du modèle.
-- `Dockerfile` pour conteneuriser votre application Flask.
-- Fichier `.gitlab-ci.yml` pour la configuration de votre pipeline CI/CD.
+- Votre repos git avec l'ensemble de vos fichies de code source.
 
 #### Remarques
 - Assurez-vous de commenter votre code pour expliquer votre logique.
