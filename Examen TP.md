@@ -34,7 +34,7 @@ Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre p
    - Installez DVC sur votre système si ce n'est pas déjà fait, en utilisant pip ou un autre gestionnaire de paquets.
 
 2. **Configuration du Stockage Distant :**
-   - Configurez un stockage distant avec DVC. Vous pouvez utiliser un service cloud comme AWS S3, Google Cloud Storage, ou même un emplacement sur un serveur distant via SSH.
+   - Configurez un stockage distant avec DVC. Vous pouvez utiliser un service cloud comme Azure Storage Account, AWS S3, Google Cloud Storage...
    - Assurez-vous que les identifiants d'accès et les permissions nécessaires sont correctement configurés pour permettre à DVC de pousser et de tirer les données.
 
 3. **Versionnement du Dataset :**
