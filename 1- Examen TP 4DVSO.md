@@ -50,14 +50,12 @@ Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre p
 - Efficacité et précision du modèle de classification.
 - Complétude et fonctionnalité du `Dockerfile`.
 - Configuration correcte et fonctionnement du pipeline CI/CD dans `.gitlab-ci.yml`.
-- Documentation du code yaml pour contruire la partie CI.
+- Documentation du code yaml pour construire la CI.
 
 #### Livrables
 - Votre repos git avec l'ensemble de vos fichies de code source.
 
-#### Remarques
-- Assurez-vous de commenter votre code pour expliquer votre logique.
-- Testez votre API Flask localement avant de la conteneuriser pour vous assurer qu'elle fonctionne comme prévu.
-- Veillez à ce que votre pipeline CI/CD soit optimisé et ne contienne pas d'étapes inutiles.
+
+
 
 Bonne chance !
