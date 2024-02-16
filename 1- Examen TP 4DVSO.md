@@ -46,7 +46,7 @@ Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre p
    - Assurez-vous que les variables d'environnement nécessaires pour l'accès au stockage distant sont correctement configurées dans les paramètres CI/CD de GitLab.
 
 #### Critères d'Évaluation
-- Documentation, Qualité et clarté du code Python pour l'entraînement du modèle.
+- Documentation, qualité et clarté du code Python pour l'entraînement du modèle.
 - Efficacité et précision du modèle de classification.
 - Complétude et fonctionnalité du `Dockerfile`.
 - Configuration correcte et fonctionnement du pipeline CI/CD dans `.gitlab-ci.yml`.
