@@ -28,6 +28,23 @@ Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre p
    - Exécution de tests unitaires simples pour vérifier la fonctionnalité de l'API.
    - (Optionnel) Déploiement de l'image Docker sur un registre d'images Docker.
 
+### Partie 5 : Gestion des Données avec DVC (30 minutes)
+1. **Initialisation de DVC :**
+   - Dans votre projet, initialisez DVC pour commencer à suivre les versions de vos données.
+   - Installez DVC sur votre système si ce n'est pas déjà fait, en utilisant pip ou un autre gestionnaire de paquets.
+
+2. **Configuration du Stockage Distant :**
+   - Configurez un stockage distant avec DVC. Vous pouvez utiliser un service cloud comme AWS S3, Google Cloud Storage, ou même un emplacement sur un serveur distant via SSH.
+   - Assurez-vous que les identifiants d'accès et les permissions nécessaires sont correctement configurés pour permettre à DVC de pousser et de tirer les données.
+
+3. **Versionnement du Dataset :**
+   - Utilisez DVC pour ajouter le fichier `reviews_unique.csv` au suivi. Cela permettra de versionner le dataset et de faciliter son partage et sa récupération.
+   - Exécutez les commandes DVC nécessaires pour pousser les données vers le stockage distant configuré.
+
+4. **Intégration de DVC dans le Pipeline CI/CD :**
+   - Modifiez votre fichier `.gitlab-ci.yml` pour inclure des étapes qui utilisent DVC pour récupérer la version la plus récente du dataset avant l'entraînement du modèle.
+   - Assurez-vous que les variables d'environnement nécessaires pour l'accès au stockage distant sont correctement configurées dans les paramètres CI/CD de GitLab.
+
 #### Critères d'Évaluation
 - Qualité et clarté du code Python pour l'entraînement du modèle.
 - Efficacité et précision du modèle de classification.
