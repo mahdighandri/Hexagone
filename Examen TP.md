@@ -1,4 +1,4 @@
-### Examen Technique de MLOps sur les Critiques de Films - Durée : 2 Heures
+### Examen Technique de MLOps sur les Critiques de Films - 4DVSO - Integration Continue - M1
 
 #### Objectif de l'Examen
 Cet examen vise à évaluer vos compétences en MLOps en vous faisant travailler sur un projet de classification des critiques de films. Vous utiliserez GitLab pour l'automatisation CI/CD et Docker pour la conteneurisation.
@@ -28,7 +28,7 @@ Vous disposerez de 2 heures pour compléter cet examen qui se divise en quatre p
    - Exécution de tests unitaires simples pour vérifier la fonctionnalité de l'API.
    - (Optionnel) Déploiement de l'image Docker sur un registre d'images Docker.
 
-### Partie 5 : Gestion des Données avec DVC (30 minutes)
+#### Partie 5 : Gestion des Données avec DVC (30 minutes)
 1. **Initialisation de DVC :**
    - Dans votre projet, initialisez DVC pour commencer à suivre les versions de vos données.
    - Installez DVC sur votre système si ce n'est pas déjà fait, en utilisant pip ou un autre gestionnaire de paquets.
